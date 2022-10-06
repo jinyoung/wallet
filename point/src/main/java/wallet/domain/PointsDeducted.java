@@ -10,6 +10,8 @@ import lombok.*;
 public class PointsDeducted extends AbstractEvent {
 
     private Long id;
+    private String holder;
+    private Long amount;
 
     public PointsDeducted(Point aggregate){
         super(aggregate);
